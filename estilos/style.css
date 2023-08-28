@@ -141,7 +141,7 @@ aside {
 
 .sobre > p {
     font-size: 20px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 aside {
     line-height: 21px;
@@ -161,7 +161,7 @@ aside > .html, .css, .js {
 }
 
 .html p, .css p, .js p {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside > .html > p {
@@ -297,6 +297,7 @@ p a {
         margin-left: 12px;
         line-height: 30px;
         margin-bottom: 40px;
+        box-shadow: 0 0 10px inset;
         
     }
     
@@ -310,7 +311,7 @@ p a {
     
     .sobre > p {
         font-size: 20px;
-        font-family: cursive, Courier, monospace;
+        font-family: Arial, Helvetica, sans-serif;
     }
     aside {
         line-height: 21px;
@@ -319,18 +320,20 @@ p a {
     aside > .html, .css, .js {
         border-radius: 8px;
         display: flex;
-        width: 350px;
+        width: 360px;
         padding: 8px;
         columns: 2;  
         margin:0 0 30px 12px; 
         border: 1px solid #6cbfee; 
         align-items: center;
         justify-content: center;
+        box-shadow: 0 0 10px inset;
     
     }
     
     .html p, .css p, .js p {
-        font-family: cursive, Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
+        
     }
     
     aside > .html > p {
