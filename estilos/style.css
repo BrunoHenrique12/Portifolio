@@ -1,0 +1,368 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebasneue';
+    src: url(../fontes/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../fontes/UbuntuCondensed-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebasneue';
+}
+
+body {
+    background-color: #000000;
+    color: #6cbfee;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid  #6cbfee;
+    box-shadow: 0 0 5px inset #6cbfee;
+    padding: 0 5px 0 10px;
+}
+
+header > nav {
+    display: flex;
+    align-items: end;
+}
+
+nav > a {
+    color: #6cbfee;
+    font-size: 20px;
+    padding: 7px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 15px #6cbfee;
+}
+
+.description {
+    height: 625px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.info p {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.info h1 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.repgit > a {
+    font-size: 19px;
+    color: #000000;
+    background-color: #6cbfee;
+    padding: 8px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all ease .4s;
+}
+
+.repgit > a:hover {
+    background-color: #387599;
+    color: #ffffff;
+}
+
+.titulo {
+    text-align: center;
+    border-bottom: 1px solid #6cbfee;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #6cbfee;
+    margin-bottom: 40px;
+}
+
+main > .imagens {
+    margin-left: 70px;
+    margin-bottom: 40px;
+    width: 55vw;
+    
+}
+
+.imagens > div {
+    display: inline-block;
+    width: 190px;
+    margin: 0 0 15px 20px;
+}
+
+.imagens > div > img {
+    width: 180px;
+    height: 110px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.imagens > div > img:hover {
+    width: 175px;
+    height: 105px;
+    transition: all ease .2s;
+    box-shadow: 0 0 10px #6cbeee8f;
+}
+
+.sobre {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #95d8ff;
+    width: 400px;
+    margin-left: 40px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.sobre > h1 {
+    margin-bottom: 20px;
+}
+aside {
+    width: 90vw;
+}
+
+.sobre > p {
+    font-size: 20px;
+    font-family: cursive;
+}
+aside {
+    line-height: 21px;
+}
+
+aside > .html, .css, .js {
+    border-radius: 8px;
+    display: flex;
+    width: 600px;
+    padding: 8px;
+    columns: 2;  
+    margin-bottom: 30px; 
+    border: 1px solid #6cbfee; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.html p, .css p, .js p {
+    font-family: cursive;
+}
+
+aside > .html > p {
+    margin-right: 7px;
+
+}
+
+.html > img, .css > img, .js > img {
+    opacity: .6;
+}
+
+div.info-contato > h1 {
+    text-align: center;
+}
+
+.formulario {
+    margin-left: 20px;
+}
+
+form > label, input, textarea {
+    width: 300px;
+    display: block; 
+}
+
+input {
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+textarea {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    color: #ffffff;
+    outline: none;
+    background-color: #333232;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #6cbfee;
+}
+
+
+footer > p {
+    color: #5e5e5e;
+    text-align:center;
+    font-size: 20px;
+    border-top: 1px solid #6cbfee;
+    padding: 15px;
+}
+
+p a {
+    color: #6cbfee;
+    text-decoration: none;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    body {
+        background-color: #000000;
+        color: #6cbfee;
+    }
+    
+    header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid  #6cbfee;
+        box-shadow: 0 0 5px inset #6cbfee;
+        padding: 0 5px 0 10px;
+    }
+    
+    header > nav {
+        display: flex;
+        align-items: end;
+    }
+    
+    nav > a {
+        color: #6cbfee;
+        font-size: 18px;
+        padding: 3px;
+        text-decoration: none;
+    }
+    
+    nav > a:hover {
+        text-decoration: underline;
+        text-shadow: 0 0 15px #6cbfee;
+    }
+
+    main > .imagens {
+        margin-left: 40px;
+        margin-bottom: 40px;
+        width: 55vw;
+        
+    }
+    
+    .imagens > div {
+        display: block;
+        width: 190px;
+        margin: 15px 0;
+    }
+    
+    .imagens > div > img {
+        width: 180px;
+        height: 110px;
+        border-radius: 8px;
+        cursor: pointer;
+        
+    }
+    .imagens > div > img:hover {
+        width: 175px;
+        height: 105px;
+        transition: all ease .2s;
+        box-shadow: 0 0 10px #6cbeee8f;
+    }
+    
+    .sobre {
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #95d8ff;
+        width: 350px;
+        margin-left: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+        
+    }
+    
+    .sobre > h1 {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        width: 90vw;
+    }
+    
+    .sobre > p {
+        font-size: 20px;
+        font-family: cursive;
+    }
+    aside {
+        line-height: 21px;
+    }
+    
+    aside > .html, .css, .js {
+        border-radius: 8px;
+        display: flex;
+        width: 360px;
+        padding: 8px;
+        columns: 2;  
+        margin:0 0 30px 15px; 
+        border: 1px solid #6cbfee; 
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .html p, .css p, .js p {
+        font-family: cursive;
+    }
+    
+    aside > .html > p {
+        margin-right: 7px;
+    
+    }
+    
+    .html > img, .css > img, .js > img {
+        opacity: .6;
+    }
+    
+    div.info-contato > h1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    form > label, input, textarea {
+        width: 300px;
+        display: block;
+        margin: auto; 
+    }
+    
+    input {
+        height: 25px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    
+    textarea {
+        height: 250px;
+        margin-bottom: 10px;
+    }
+    
+    input, textarea {
+        color: #ffffff;
+        outline: none;
+        background-color: #333232;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #6cbfee;
+    }
+    
+    
+}
