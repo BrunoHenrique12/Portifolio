@@ -25,7 +25,7 @@ body {
 header {
     display: block;
     border-bottom: 1px solid #6cbfee;
-    box-shadow: 0 0 10px inset ;
+    box-shadow: 0 0 10px inset;
 }
 
 #burger {
@@ -60,7 +60,7 @@ menu a:hover {
     height: 580px;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .info p {
@@ -73,7 +73,7 @@ menu a:hover {
     text-align: center;
 }
 
-.repgit > a {
+.repgit>a {
     font-size: 19px;
     color: #000000;
     background-color: #6cbfee;
@@ -83,7 +83,7 @@ menu a:hover {
     transition: all ease .4s;
 }
 
-.repgit > a:hover {
+.repgit>a:hover {
     background-color: #387599;
     color: #ffffff;
 }
@@ -101,27 +101,32 @@ main {
     margin-bottom: 40px;
 }
 
-main > .imagens {
+main>.imagens {
     margin-left: 70px;
     margin-bottom: 40px;
     width: 55vw;
-    
+
 }
 
-.imagens > div {
+.imagens>div {
     display: inline-block;
     width: 190px;
     margin: 0 0 15px 20px;
 }
 
-.imagens > div > img {
+.imagens>div>img {
     width: 180px;
     height: 110px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+div > p {
+    text-align: center;
     
 }
-.imagens > div > img:hover {
+
+.imagens>div>img:hover {
     width: 175px;
     height: 105px;
     transition: all ease .2s;
@@ -136,51 +141,59 @@ main > .imagens {
     margin-left: 40px;
     line-height: 30px;
     margin-bottom: 40px;
-    
+
 }
 
-.sobre > h1 {
+.sobre>h1 {
     margin-bottom: 20px;
 }
+
 aside {
     width: 90vw;
 }
 
-.sobre > p {
+.sobre>p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 aside {
     line-height: 21px;
 }
 
-aside > .html, .css, .js {
+aside>.html,
+.css,
+.js {
     border-radius: 8px;
     display: flex;
     width: 600px;
     padding: 8px;
-    columns: 2;  
-    margin-bottom: 30px; 
-    border: 1px solid #6cbfee; 
+    columns: 2;
+    margin-bottom: 30px;
+    border: 1px solid #6cbfee;
     align-items: center;
     justify-content: center;
 
 }
 
-.html p, .css p, .js p {
+.html p,
+.css p,
+.js p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-aside > .html > p {
+aside>.html>p {
     margin-right: 7px;
 
 }
 
-.html > img, .css > img, .js > img {
+.html>img,
+.css>img,
+.js>img {
     opacity: .6;
 }
 
-div.info-contato > h1 {
+div.info-contato>h1 {
     text-align: center;
 }
 
@@ -188,9 +201,11 @@ div.info-contato > h1 {
     margin-left: 20px;
 }
 
-form > label, input, textarea {
+form>label,
+input,
+textarea {
     width: 300px;
-    display: block; 
+    display: block;
 }
 
 input {
@@ -205,7 +220,8 @@ textarea {
     margin-bottom: 10px;
 }
 
-input, textarea {
+input,
+textarea {
     color: #ffffff;
     outline: none;
     background-color: #333232;
@@ -213,29 +229,27 @@ input, textarea {
     border: 1px solid #6cbfee;
 }
 
-div.info-contato > div.redessociais {
-   display: flex;
-   justify-content: center;
-   
+div.info-contato>div.redessociais {
+    display: flex;
+    justify-content: center;
+
 }
 
-div.redessociais > img {
+div.redessociais>img {
     padding: 15px;
     width: 55px;
 }
 
-.redessociais > a > img:hover {
-    
-}
+.redessociais>a>img:hover {}
 
-.redessociais > a {
+.redessociais>a {
     display: block;
     text-align: center;
 }
 
-footer > p {
+footer>p {
     color: #5e5e5e;
-    text-align:center;
+    text-align: center;
     font-size: 20px;
     border-top: 1px solid #6cbfee;
     padding: 15px;
@@ -251,28 +265,28 @@ p a {
         background-color: #000000;
         color: #6cbfee;
     }
-    
+
     header {
         display: block;
         border-bottom: 1px solid #6cbfee;
-        box-shadow: 0 0 10px inset ;
+        box-shadow: 0 0 10px inset;
     }
-    
+
     #burger {
         display: block;
         text-align: center;
         padding: 10px;
         cursor: pointer;
     }
-    
+
     menu {
         display: none;
     }
-    
+
     menu ul {
         list-style-type: none;
     }
-    
+
     menu a {
         text-align: center;
         display: block;
@@ -280,47 +294,48 @@ p a {
         color: #6cbfee;
         padding: 10
     }
-    
+
     menu a:hover {
         background-color: #4680a196;
-    
+
     }
 
     .description {
-        height: 650px;
+        height: 700px;
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
     }
-    
 
-    main > .imagens {
+
+    main>.imagens {
         margin-left: 30px;
         margin-bottom: 40px;
         width: 55vw;
-        
+
     }
-    
-    .imagens > div {
+
+    .imagens>div {
         display: block;
         width: 190px;
         margin: 15px 0;
     }
-    
-    .imagens > div > img {
+
+    .imagens>div>img {
         width: 180px;
         height: 110px;
         border-radius: 8px;
         cursor: pointer;
-        
+
     }
-    .imagens > div > img:hover {
+
+    .imagens>div>img:hover {
         width: 175px;
         height: 105px;
         transition: all ease .2s;
         box-shadow: 0 0 10px #6cbeee8f;
     }
-    
+
     .sobre {
         padding: 20px;
         border-radius: 8px;
@@ -330,77 +345,87 @@ p a {
         line-height: 30px;
         margin-bottom: 40px;
         box-shadow: 0 0 10px inset;
-        
+
     }
-    
-    .sobre > h1 {
+
+    .sobre>h1 {
         margin-bottom: 20px;
     }
 
     aside {
         width: 90vw;
     }
-    
-    .sobre > p {
+
+    .sobre>p {
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
+
     aside {
         line-height: 21px;
     }
-    
-    aside > .html, .css, .js {
+
+    aside>.html,
+    .css,
+    .js {
         border-radius: 8px;
         display: flex;
         width: 360px;
         padding: 8px;
-        columns: 2;  
-        margin:0 0 30px 12px; 
-        border: 1px solid #6cbfee; 
+        columns: 2;
+        margin: 0 0 30px 12px;
+        border: 1px solid #6cbfee;
         align-items: center;
         justify-content: center;
         box-shadow: 0 0 10px inset;
-    
+
     }
-    
-    .html p, .css p, .js p {
+
+    .html p,
+    .css p,
+    .js p {
         font-family: Arial, Helvetica, sans-serif;
-        
+
     }
-    
-    aside > .html > p {
+
+    aside>.html>p {
         margin-right: 7px;
-    
+
     }
-    
-    .html > img, .css > img, .js > img {
+
+    .html>img,
+    .css>img,
+    .js>img {
         opacity: .6;
     }
-    
-    div.info-contato > h1 {
+
+    div.info-contato>h1 {
         text-align: center;
         margin-bottom: 40px;
     }
-    
-    form > label, input, textarea {
+
+    form>label,
+    input,
+    textarea {
         width: 300px;
         display: block;
-        margin: auto; 
+        margin: auto;
     }
-    
+
     input {
         height: 25px;
         margin-bottom: 10px;
         border-radius: 8px;
         padding: 5px;
     }
-    
+
     textarea {
         height: 250px;
         margin-bottom: 10px;
     }
-    
-    input, textarea {
+
+    input,
+    textarea {
         color: #ffffff;
         outline: none;
         background-color: #333232;
@@ -409,22 +434,22 @@ p a {
     }
 
     .formulario {
-       margin: 0;
+        margin: 0;
     }
 
-    footer > p {
+    footer>p {
         color: #5e5e5e;
-        text-align:center;
+        text-align: center;
         font-size: 20px;
         border-top: 1px solid #6cbfee;
         padding: 15px 0;
     }
-    
+
     p a {
         color: #6cbfee;
         text-decoration: none;
     }
-    
 
-    
+
+
 }
