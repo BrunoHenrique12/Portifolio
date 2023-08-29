@@ -23,34 +23,41 @@ body {
 }
 
 header {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid  #6cbfee;
-    box-shadow: 0 0 5px inset #6cbfee;
-    padding: 0 5px 0 10px;
+    display: block;
+    border-bottom: 1px solid #6cbfee;
+    box-shadow: 0 0 10px inset ;
 }
 
-header > nav {
-    display: flex;
-    align-items: end;
+#burger {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
-nav > a {
-    color: #6cbfee;
-    font-size: 20px;
-    padding: 7px;
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu a {
+    text-align: center;
+    display: block;
     text-decoration: none;
+    color: #6cbfee;
+    padding: 10
 }
 
-nav > a:hover {
-    text-decoration: underline;
-    text-shadow: 0 0 15px #6cbfee;
+menu a:hover {
+    background-color: #4680a196;
+
 }
 
 .description {
-    height: 625px;
+    height: 580px;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -206,6 +213,26 @@ input, textarea {
     border: 1px solid #6cbfee;
 }
 
+div.info-contato > div.redessociais {
+   display: flex;
+   justify-content: center;
+   
+}
+
+div.redessociais > img {
+    padding: 15px;
+    width: 55px;
+}
+
+.redessociais > a > img:hover {
+    
+}
+
+.redessociais > a {
+    display: block;
+    text-align: center;
+}
+
 footer > p {
     color: #5e5e5e;
     text-align:center;
@@ -226,32 +253,37 @@ p a {
     }
     
     header {
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-bottom: 1px solid  #6cbfee;
-        box-shadow: 0 0 5px inset #6cbfee;
-        padding: 0 5px 0 10px;
+        display: block;
+        border-bottom: 1px solid #6cbfee;
+        box-shadow: 0 0 10px inset ;
     }
     
-    header > nav {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    nav > a {
+    #burger {
+        display: block;
         text-align: center;
-        color: #6cbfee;
-        font-size: 16px;
-        padding: 3px;
-        text-decoration: none;
+        padding: 10px;
+        cursor: pointer;
     }
     
-    nav > a:hover {
-        text-decoration: underline;
-        text-shadow: 0 0 15px #6cbfee;
+    menu {
+        display: none;
+    }
+    
+    menu ul {
+        list-style-type: none;
+    }
+    
+    menu a {
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: #6cbfee;
+        padding: 10
+    }
+    
+    menu a:hover {
+        background-color: #4680a196;
+    
     }
 
     .description {
