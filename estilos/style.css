@@ -182,18 +182,18 @@ aside>.html,
     font-family: Arial, Helvetica, sans-serif;
 }
 
-aside>.html>p {
+aside > .html > p {
     margin-right: 7px;
 
 }
 
-.html>img,
-.css>img,
-.js>img {
+.html > img,
+.css > img,
+.js > img {
     opacity: .6;
 }
 
-div.info-contato>h1 {
+div.info-contato > h1 {
     text-align: center;
 }
 
@@ -229,22 +229,29 @@ textarea {
     border: 1px solid #6cbfee;
 }
 
-div.info-contato>div.redessociais {
+div.info-contato {
     display: flex;
-    justify-content: center;
-
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-div.redessociais>img {
-    padding: 15px;
-    width: 55px;
+.redessociais >ul {
+    list-style-type: none;
 }
 
-.redessociais>a>img:hover {}
+div.redessociais img {
+    margin-top: 20px; 
+    width: 30px;
+}
 
-.redessociais>a {
-    display: block;
-    text-align: center;
+.redessociais a {
+    margin-left: 10px;
+    color: #6cbfee;
+    text-decoration: none;
+}
+
+.redessociais a:hover {
+    text-decoration: underline;
 }
 
 footer>p {
@@ -256,8 +263,16 @@ footer>p {
 }
 
 p a {
+    padding: 5px;
     color: #6cbfee;
     text-decoration: none;
+    transition: all ease .3s;
+}
+
+p a:hover {
+    color: #8dcaee;
+   background-color: #38759998;
+   border-radius: 8px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
