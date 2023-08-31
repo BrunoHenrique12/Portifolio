@@ -121,9 +121,9 @@ main>.imagens {
     cursor: pointer;
 }
 
-div > p {
+div>p {
     text-align: center;
-    
+
 }
 
 .imagens>div>img:hover {
@@ -182,18 +182,18 @@ aside>.html,
     font-family: Arial, Helvetica, sans-serif;
 }
 
-aside > .html > p {
+aside>.html>p {
     margin-right: 7px;
 
 }
 
-.html > img,
-.css > img,
-.js > img {
+.html>img,
+.css>img,
+.js>img {
     opacity: .6;
 }
 
-div.info-contato > h1 {
+div.info-contato>h1 {
     text-align: center;
 }
 
@@ -235,12 +235,12 @@ div.info-contato {
     justify-content: space-evenly;
 }
 
-.redessociais >ul {
+.redessociais>ul {
     list-style-type: none;
 }
 
 div.redessociais img {
-    margin-top: 20px; 
+    margin-top: 20px;
     width: 30px;
 }
 
@@ -271,200 +271,6 @@ p a {
 
 p a:hover {
     color: #8dcaee;
-   background-color: #38759998;
-   border-radius: 8px;
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-    body {
-        background-color: #000000;
-        color: #6cbfee;
-    }
-
-    header {
-        display: block;
-        border-bottom: 1px solid #6cbfee;
-        box-shadow: 0 0 10px inset;
-    }
-
-    #burger {
-        display: block;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    menu {
-        display: none;
-    }
-
-    menu ul {
-        list-style-type: none;
-    }
-
-    menu a {
-        text-align: center;
-        display: block;
-        text-decoration: none;
-        color: #6cbfee;
-        padding: 10
-    }
-
-    menu a:hover {
-        background-color: #4680a196;
-
-    }
-
-    .description {
-        height: 700px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-
-    main>.imagens {
-        margin-left: 30px;
-        margin-bottom: 40px;
-        width: 55vw;
-
-    }
-
-    .imagens>div {
-        display: block;
-        width: 190px;
-        margin: 15px 0;
-    }
-
-    .imagens>div>img {
-        width: 180px;
-        height: 110px;
-        border-radius: 8px;
-        cursor: pointer;
-
-    }
-
-    .imagens>div>img:hover {
-        width: 175px;
-        height: 105px;
-        transition: all ease .2s;
-        box-shadow: 0 0 10px #6cbeee8f;
-    }
-
-    .sobre {
-        padding: 20px;
-        border-radius: 8px;
-        border: 1px solid #95d8ff;
-        width: 350px;
-        margin-left: 12px;
-        line-height: 30px;
-        margin-bottom: 40px;
-        box-shadow: 0 0 10px inset;
-
-    }
-
-    .sobre>h1 {
-        margin-bottom: 20px;
-    }
-
-    aside {
-        width: 90vw;
-    }
-
-    .sobre>p {
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    aside {
-        line-height: 21px;
-    }
-
-    aside>.html,
-    .css,
-    .js {
-        border-radius: 8px;
-        display: flex;
-        width: 360px;
-        padding: 8px;
-        columns: 2;
-        margin: 0 0 30px 12px;
-        border: 1px solid #6cbfee;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0 0 10px inset;
-
-    }
-
-    .html p,
-    .css p,
-    .js p {
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-
-    aside>.html>p {
-        margin-right: 7px;
-
-    }
-
-    .html>img,
-    .css>img,
-    .js>img {
-        opacity: .6;
-    }
-
-    div.info-contato>h1 {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-
-    form>label,
-    input,
-    textarea {
-        width: 300px;
-        display: block;
-        margin: auto;
-    }
-
-    input {
-        height: 25px;
-        margin-bottom: 10px;
-        border-radius: 8px;
-        padding: 5px;
-    }
-
-    textarea {
-        height: 250px;
-        margin-bottom: 10px;
-    }
-
-    input,
-    textarea {
-        color: #ffffff;
-        outline: none;
-        background-color: #333232;
-        font-family: Arial, Helvetica, sans-serif;
-        border: 1px solid #6cbfee;
-    }
-
-    .formulario {
-        margin: 0;
-    }
-
-    footer>p {
-        color: #5e5e5e;
-        text-align: center;
-        font-size: 20px;
-        border-top: 1px solid #6cbfee;
-        padding: 15px 0;
-    }
-
-    p a {
-        color: #6cbfee;
-        text-decoration: none;
-    }
-
-
-
+    background-color: #38759998;
+    border-radius: 8px;
 }
