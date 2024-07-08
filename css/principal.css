@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    height: 80px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > nav {
+    margin: 20px 0;
+}
+
+header > nav > a {
+    width: auto;
+    font-size: 20px;
+    color: #07d3d3;
+    padding: 0 8px;
+    text-decoration: none;
+}
+
+header > nav > a:hover {
+    border: 1px solid #07d3d3;
+    border-radius: 7px;
+    box-shadow: 0 0 08px #07d3d3 inset;
+}
+
+.apresentation {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #07d3d3;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 28px;
+}
+
