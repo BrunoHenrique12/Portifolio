@@ -1,0 +1,16 @@
+.foto{
+    opacity: 0;
+    transform: translateX(80px);
+    animation: aparecerFoto 1.2s ease forwards;
+}
+
+@keyframes aparecerFoto {
+    from{
+        opacity: 0;
+        transform: translateX(80px);
+    }
+    to{
+        opacity: 2;
+        transform: translateX(0)
+    }
+}
